@@ -50,7 +50,6 @@ nav li a:hover {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 5px 5px 0px 0px;
-  width: 230px;
 }
 
 .size {
