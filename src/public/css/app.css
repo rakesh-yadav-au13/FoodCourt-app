@@ -1,2 +1,10 @@
 @import './scss/app.css';
 
+@media only screen and (max-width: 640px) {
+    .menu-container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 80%;
+        margin: auto;
+    }
+  }
