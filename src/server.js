@@ -15,7 +15,7 @@ initMongo()
 hbs.registerHelper('dateFormat', require('handlebars-dateformat'));
 
 const app = express();
-let port = Process.env.PORT || 8900;
+let port = process.env.PORT || 8900;
 
 // body-parser
 app.use(bodyParser.json());
