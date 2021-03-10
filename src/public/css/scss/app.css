@@ -46,12 +46,6 @@ nav li a:hover {
   border-radius: 5px;
 }
 
-.img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 5px 5px 0px 0px;
-}
-
 .size {
   background-color: #f8f8f8;
 }

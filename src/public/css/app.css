@@ -1,5 +1,10 @@
 @import './scss/app.css';
 
+.img{
+    object-fit:cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
 @media only screen and (max-width: 640px) {
     .menu-container{
         display: grid;
