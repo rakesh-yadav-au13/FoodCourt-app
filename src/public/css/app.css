@@ -19,7 +19,9 @@
     .nav-cart{
         padding: 0.25rem 0.60rem;
     }
-    
+    #cartCounter{
+        padding-left: 0.35rem;
+    }
 }
 
 @media only screen and (max-width: 470px) {
