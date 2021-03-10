@@ -25,7 +25,7 @@
         padding: 0.25rem 0.60rem;
     }
     #cartCounter{
-        padding-left: 0.35rem;
+        padding-right: 0.35rem;
     }
 }
 
@@ -40,7 +40,7 @@
         font-size: 0.75rem;
     }
     #cartCounter{
-        padding-left: 0.25rem;
+        padding-right: 0.25rem;
     }
     .nav-ul li{
         margin-left: 1rem;
