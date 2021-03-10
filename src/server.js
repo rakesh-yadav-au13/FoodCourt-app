@@ -15,7 +15,7 @@ initMongo()
 hbs.registerHelper('dateFormat', require('handlebars-dateformat'));
 
 const app = express();
-const PORT = process.env.PORT || 8900;
+const port = Process.env.PORT || 8900;
 
 // body-parser
 app.use(bodyParser.json());
@@ -69,6 +69,6 @@ app.use('/admin', adminroutes);     // All admin routes
 
 
 
-app.listen(PORT, () => {
-    console.log(`Listioning on localhost:${PORT}`)
+app.listen(port, () => {
+    console.log(`Listioning on localhost:${port}`)
 })
