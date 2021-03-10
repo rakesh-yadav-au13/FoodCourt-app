@@ -7,4 +7,32 @@
         width: 80%;
         margin: auto;
     }
-  }
+    .logo-1{
+        font-size: 1.5rem;
+    }
+    .logo-2{
+        font-size: 1.25rem;
+    }
+    .nav-ul li{
+        margin-left: 1rem;
+    }
+    .nav-cart{
+        padding: 0.25rem 0.60rem;
+    }
+    
+}
+
+@media only screen and (max-width: 470px) {
+    .menu-container{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        width: 80%;
+        margin: auto;
+    }
+    nav li a{
+        font-size: 0.75rem;
+    }
+    #cartCounter{
+        padding-left: 0.25rem;
+    }
+}
