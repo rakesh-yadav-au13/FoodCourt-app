@@ -68,7 +68,6 @@ const AuthControler = {
                 req.flash('error', 'Invalid password')
                 return res.render('auth/login', {
                     layout,
-                    ...req.body
                 })
             }
 
@@ -77,7 +76,6 @@ const AuthControler = {
                 req.flash('error', 'Something went wrong')
                 res.render('auth/login', {
                     layout,
-                    ...req.body
                 })
             };
             const decoded = jwt.verify(token, 'jwt_Secret');
