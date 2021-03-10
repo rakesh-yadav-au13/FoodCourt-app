@@ -61,7 +61,6 @@ const AuthControler = {
                 req.flash('error', 'Invalid email')
                 return res.render('auth/login', {
                     layout,
-                    ...req.body
                 })
             }
             const isMatch = await bcrypt.compare(password, user.password);
